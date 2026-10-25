@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h2 class="title">About Me</h2>
+        <div id="text-header">
+            <h3>Fawaz Adekanmbi</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti repellat facere iste sequi et aliquam?
+                Consequuntur esse eum eveniet. Suscipit veritatis aspernatur est nihil mollitia, blanditiis enim
+                reiciendis ducimus odit!</p>
+        </div>
+
+    </div>
+</body>
+</html>

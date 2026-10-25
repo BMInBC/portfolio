@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#about" class="nav-logo">Fawaz</a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#stack">Stack</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#services">Services</a></li>
+        </ul>
+    </nav>
+    <!-- ABOUT ME -->
+    <div class="container" id="about">
+        <h2 class="title">About Me</h2>
+        <div id="main-info">
+            <img src="Professional Black Suit Office Portrait.png" alt="Fawaz Adekanmbi" />
+            <div id="hero">
+                <p class="greeting">Hi there! I'm</p>
+                <h3><span class="first-name">Fawaz</span> Adekanmbi</h3>
+                <p class="bio">A <span class="highlight">Front-End Web Developer</span> passionate about creating
+                    interactive applications and experiences on the web.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- MY STACK -->
+    <div class="container section" id="stack">
+        <h2 class="title">My Stack</h2>
+        <div class="stack">
+            <div class="stack-card">
+                <img src="images.png" alt="HTML logo">
+                <h3>HTML</h3>
+                <p>Building clear, accessible page structures.</p>
+            </div>
+            <div class="stack-card">
+                <img src="css3-logo-png_seeklogo-186678.png" alt="CSS3" />
+                <h3>CSS</h3>
+                <p>Creating responsive layouts and polished visual designs.</p>
+            </div>
+            <div class="stack-card">
+                <img src="JavaScript-Logo.png" alt="JavaScript" />
+                <h3>Javascript</h3>
+                <p>Adding interactivity and dynamic behaviour to websites.</p>
+            </div>
+        </div>
+    </div>
+
+    <section id="services" class="container section">
+        <h2 class="title">What I Can Build</h2>
+
+        <div class="services">
+            <article class="service-card">
+                <span class="service-number">01</span>
+                <h3>Landing Pages</h3>
+                <p>
+                    Clear, focused pages that introduce your product,
+                    service, or business and guide visitors to take action.
+                </p>
+            </article>
+
+            <article class="service-card">
+                <span class="service-number">02</span>
+                <h3>Responsive Websites</h3>
+                <p>
+                    Websites with layouts that adapt to phones, tablets,
+                    and desktops for a comfortable browsing experience.
+                </p>
+            </article>
+
+            <article class="service-card">
+                <span class="service-number">03</span>
+                <h3>Interactive Features</h3>
+                <p>
+                    Navigation menus, form validation, and other interactive
+                    features that make your website easier to use.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <div class="container section" id="projects">
+        <h2 class="title">Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <div class="project-thumb"></div>
+                <h3>Project One</h3>
+                <p>A short description of what this project does and the tools you used to build it.</p>
+                <a href="#" class="btn">View project</a>
+            </div>
+            <div class="project-card">
+                <div class="project-thumb"></div>
+                <h3>Project Two</h3>
+                <p>A short description of what this project does and the tools you used to build it.</p>
+                <a href="#" class="btn">View project</a>
+            </div>
+            <div class="project-card">
+                <div class="project-thumb"></div>
+                <h3>Project Three</h3>
+                <p>A short description of what this project does and the tools you used to build it.</p>
+                <a href="#" class="btn">View project</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="container section contact-section" id="contact">
+        <h2 class="title">Contact Details</h2>
+        <div class="contact">
+            <p class="contact-text">Have a project in mind or just want to say hi? Reach out and let's talk.</p>
+            <a href="https://wa.me/2348106768583" class="btn" target="_blank">Chat on WhatsApp</a>
+            <p class="contact-email">Email: <span>fawazadekanmbi19@gmail.com</span></p>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; <span id="year"></span> Fawaz Adekanmbi. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#" target="_blank">GitHub</a>
+            <a href="#" target="_blank">LinkedIn</a>
+            <a href="#" target="_blank">X</a>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
